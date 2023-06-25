@@ -5,6 +5,10 @@
     --textcolor: #141414;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     padding: 0;
     margin: auto;
@@ -14,16 +18,17 @@ body {
     width: 100vw;
 }
 
-.undercolor{
-    width:500px;
+.undercolor {
+    width: 500px;
     height: 500px;
     background: #EAC81F;
     border-radius: 50%;
     position: absolute;
     filter: blur(400px);
- 
-    
+
+
 }
+
 .heroSection {
     background-color: #fff;
     width: 100%;
@@ -40,7 +45,19 @@ body {
     justify-content: center;
     gap: 140px;
     margin-top: 12px;
+    z-index: 10;
 
+}
+
+a:link {
+    text-decoration: inherit;
+    color: inherit;
+
+}
+
+a:visited {
+    text-decoration: inherit;
+    color: inherit;
 }
 
 .logoContainer {
@@ -647,7 +664,7 @@ body {
     display: flex;
     width: 200px;
     height: 48px;
-    padding: 10px 10px 10px 20px;  
+    padding: 10px 10px 10px 20px;
     align-items: center;
     gap: 10px;
     border: 1px solid #3284FF;
@@ -714,17 +731,18 @@ body {
     position: relative;
 }
 
-.bckcontentcontainer{
+.bckcontentcontainer {
     position: absolute;
-    height:100%;
+    height: 100%;
     width: 271px;
-    left:0%;
+    left: 0%;
 }
-.bckcontentcontainerright{
+
+.bckcontentcontainerright {
     position: absolute;
-    height:100%;
+    height: 100%;
     width: 271px;
-    right:0%;
+    right: 0%;
 }
 
 .faqcontainer {
@@ -805,9 +823,9 @@ body {
     padding: 100px 0 55px;
     position: relative;
     height: 299px;
-    width:100%;
+    width: 100%;
     overflow: hidden;
-    
+
 }
 
 .revolutionheader {
@@ -820,25 +838,26 @@ body {
     font-weight: 600;
     line-height: 48px;
     width: 100%;
-    
+
 }
 
-.revvec{
+.revvec {
     position: absolute;
-   top:0;
-   left:0;
-   height:70%;
-   width: auto;
+    top: 0;
+    left: 0;
+    height: 70%;
+    width: auto;
 
-   
+
 }
 
-.revvecrig{
-    position:absolute;
+.revvecrig {
+    position: absolute;
     right: 0;
     bottom: 0;
-    height:70%;
+    height: 70%;
 }
+
 .revolution-button {
     display: flex;
     width: 200px;
@@ -852,23 +871,26 @@ body {
     color: #FFF;
     border: none;
 }
-.small{
-    height:60%;
+
+.small {
+    height: 60%;
 }
-.smaller{
+
+.smaller {
     height: 50%;
 }
+
 .footer {
     display: inline-flex;
     height: 561px;
     justify-content: center;
     align-items: flex-start;
     padding-top: 95px;
-    width:100%;
+    width: 100%;
     overflow: hidden;
-    gap:50px;
+    gap: 50px;
     position: relative;
-    color:#112232;
+    color: #112232;
 }
 
 .footerlinksgroup {
@@ -894,48 +916,49 @@ body {
     line-height: 24px;
 }
 
-.footerlinkli:first-child{
-color: var(--neutral-900, #071827);
-font-size: 16px;
-font-family: var(--text);
-font-weight:600;
-margin-bottom :10px;
-line-height: 24px;
+.footerlinkli:first-child {
+    color: var(--neutral-900, #071827);
+    font-size: 16px;
+    font-family: var(--text);
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 24px;
 }
 
-.footerfootnote{
+.footerfootnote {
     position: absolute;
     top: 85%;
-    left:85%;
-    width:fit-content;
+    left: 85%;
+    width: fit-content;
     font-size: 14px;
     font-family: var(--text);
     line-height: 20px;
 }
-.footerlogos{
+
+.footerlogos {
     display: inline-block;
     flex-direction: column;
     align-items: center;
     gap: 32px;
-    padding:12px;
+    padding: 12px;
 }
 
-.footericons{
+.footericons {
     display: flex;
     justify-content: space-between;
-    gap:24px;
+    gap: 24px;
 }
 
-.footersvg{
- position: absolute;   
-}
-
-.leftsv{
+.footersvg {
     position: absolute;
-    left:0;
 }
 
-.rightsv{
-    right:0;
+.leftsv {
+    position: absolute;
+    left: 0;
+}
+
+.rightsv {
+    right: 0;
     bottom: 0;
 }
